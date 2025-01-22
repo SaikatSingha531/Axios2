@@ -44,8 +44,8 @@ function AxiosThapa() {
     {data.map((i)=>(
       <div key={i.id} style={{ border: '1px solid #ccc', padding: '10px', marginBottom: '10px' }}>
           <h2>{i.title}</h2>
-          <p>Price:{i.price}</p>
           <img src={i.image} alt={i.title} style={{ width: '100px', height: '100px' }}/>
+          <p>Price:{i.price}</p>
       </div>
     ))}
       
